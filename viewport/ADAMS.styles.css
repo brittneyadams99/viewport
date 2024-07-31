@@ -37,8 +37,8 @@
 /* --------------- BEGIN USER PREFERS DARK COLOR SCHEME QUERY --------------- */
 @media (prefers-color-scheme: dark) {
     body {
-        background-color: var(--dark-gray);
-        color: var(--light-gray);
+        background: var(--dark-gray);
+        color: var(--white);
     }
 }
 
@@ -268,7 +268,7 @@ img{
 
 /* ---------- ADJUSTING RESPONSIVE IMAGE SIZE ---------- */
 /* --------------- BEGIN RESPONSIVE IMAGE ADJUST SIZES --------------- */
-@media (min-width: 1500px) {
+@media only screen and (min-width: 1500px) {
     img{
         width: 300px;
         max-width: 300px;
